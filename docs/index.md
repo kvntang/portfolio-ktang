@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "TODO: Title"
-  text: "TODO: Subtitle"
-  tagline: "TODO: Tagline"
+  name: "Kevin Tang"
+  text: "Portfolio"
+  tagline: "6.1040 Software Design"
   actions:
     - theme: brand
       text: Template Repository
