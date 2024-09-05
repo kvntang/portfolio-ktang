@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Kevin Tang's Portfolio",
   description: "6.1040 Fall 2024",
-  base: "/<portfolio-ktang>/",
+  base: "/portfolio-ktang/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -16,6 +16,10 @@ export default defineConfig({
       {
         text: "Blogs",
         link: "/blogs",
+      },
+      {
+        text: "About Me",
+        link: "/aboutme",
       },
     ],
 
