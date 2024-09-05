@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Kevin Tang"
-  text: "Portfolio"
+  text: "design Portfolio"
   tagline: "6.1040 Software Design"
   actions:
     - theme: brand
