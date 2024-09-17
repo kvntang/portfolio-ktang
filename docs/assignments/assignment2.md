@@ -46,8 +46,6 @@ layout: doc
 
 <img src="./a2_scrapbook/linkedin.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<!-- <img src="./a2_scrapbook/flip_home.gif" alt="My Image" width="200" style="float: left; margin-right: 20px;"/> -->
-
 
 
 ## 3. Feature Brainstorming (15-20 ideas)
@@ -175,7 +173,36 @@ layout: doc
 
 ## 5. Storyboarding and sketching
 
+**Flow 1: Looking for fresh content** 
+Step 1: User is bored and wants to see something new.
+Step 2: User activates the "Shuffle Modes" feature and selects "Surprise me" option.
+Step 3: App presents a diverse array of content from various categories.
+Step 4: User swipes through content cards, each representing a different topic or interest.
+Step 5: User taps on an intriguing card about urban gardening, expanding it to view more details.
+Step 6: Impressed by the new content, user saves the topic to their "My Moods" section for future exploration.
 
+**Flow 2: Looking for opposite content** 
+Step 1: User felt misinformed from the news and wants to see the opposite perspective.
+Step 2: User activates the "Polar Identities" feature to view content that contrasts with their usual preferences.
+Step 3: App displays articles, videos, and posts that present alternative viewpoints.
+Step 4: User browses through the contrasting content, using the "Suggestion Card" feature to navigate between different categories.
+Step 5: User finds an interesting counterargument and uses the "Region Hopping" feature to see how this topic is discussed in different parts of the world.
+Step 6: User shares a particularly insightful article to their personal feed, adding a note about the importance of diverse perspectives.
 
+**Flow 3: Wondering what content my friends are looking at**
+Step 1: User is inspired by other people's content, curious to see their taste.
+Step 2: User navigates to the "Sharing Social Glimpses" feature and selects a friend's profile.
+Step 3: App displays a curated feed based on the friend's interests and liked content.
+Step 4: User scrolls through the friend's feed, discovering new topics and content creators.
+Step 5: User finds a recurring theme in the friend's feed and uses the "People-inspired Feeds" feature to explore more content related to this theme.
+Step 6: Excited by the discovery, user initiates a chat with the friend directly from the app to discuss their shared interests.
+
+**Flow 4: Starting a feed jam with friends**
+Step 1: User wants to explore content together with friends, working on a collaborative feed.
+Step 2: User initiates a "Browse Jam" session and invites friends to join.
+Step 3: Friends join the session, and the app combines their interests using "Algorithm Mixing" to create a unique, shared feed.
+Step 4: The group scrolls through the feed together, with each member's cursor visible to others in real-time.
+Step 5: When someone finds interesting content, they can highlight it, triggering a group discussion feature.
+Step 6: The group uses the "Time-of-day" feature to schedule future jam sessions, ensuring they can regularly explore content together at convenient times.
 
 
