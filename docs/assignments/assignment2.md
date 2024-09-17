@@ -133,8 +133,49 @@ layout: doc
 
 
 ## 4. VSD Analysis
-1. **Feature 1** Give users more control 
+**1. Stakeholders** 
+
+- Direct:
+
+- Indirect(non-target):
+
+- Accessibility:
+
+- Children:
+
+**2. Time** 
+
+- Short:
+
+- Mid:
+
+- Long:
 
 
-## 5. Storyboarding
-1. **Feature 1** Give users more control 
+**3. Pervasiveness** 
+
+- Widespread use:
+
+- Diverse geographies, multii-national, culture:
+
+- Political realities:
+
+
+**4. Value** 
+
+- Autonomy:
+
+- Inclusion:
+
+- Community:
+
+- Fairness:
+
+
+
+## 5. Storyboarding and sketching
+
+
+
+
+
