@@ -9,7 +9,7 @@ layout: doc
 ## 1. Audience and value
 **App Name**: Glimpses
 
-**Audience**: Frequent social media users who wish to have more control in how they explore new content.
+**Audience**: Frequent social media users who wish to have more control in how they explore new content and engage with friends.
 
 **Value**: 
 - On top of basic sharing features, it focuses on the experience of content discovery.
@@ -133,76 +133,77 @@ layout: doc
 ## 4. VSD Analysis
 **1. Stakeholders** 
 
-- Direct:
+- Direct: Users will be readily be expose to many opposite view points, which could be uncomfortable or disturbing. This could build distrust towards online content as a whole
+    > Observation: When users can swpie and see a "flip-side" to their content, they may feel uneasy or uncomfortable. Depending on the context, they may be triggered by the content.
 
-- Indirect(non-target):
+    > Design response: Implement customizability to how much polar content one wants to see, and how far of a spectrum they want to explore.
 
-- Accessibility:
+- Indirect(non-target): Individuals might use the glimpse feature as a way to online stalk others.
+    > Observation: Users might be able to see what content others are looking at, which could be used to stalk or harass others.
 
-- Children:
+    > Design response: Implement strict privacy settings and controls. Users should have the ability to control who can see their glimpse history, and have control over what content they want to share.
+
+- Children: Children interacting might prefer to stay within thier echo chamber/content space, as there is a risk of exposure to content that is not suitable for them.
+    > Observation: Exposure to the wrong content could affect a child's social and emotional development.
+
+    > Design response: Implement strict age verification and parental controls.
 
 **2. Time** 
 
-- Short:
+- Short: 
+    > Observation: Users discovering new digital spaces and perspectives online could actually level out the playing field of contention in the short term. People could be more empathetic toward one another before telling them they are wrong.
 
-- Mid:
+- Long: The availability of new perspectives, opposite views so conviniently available could in the long run cause unexpected shifts in how people deal with opposing views.
+    > Observation: In the long run people could become desensitized to opposing views and loss the ability to talke a stand. The opposite could also happen where polarization could be exasterbated in selected individuals due to continuous reinforcement of opposing beliefs.
 
-- Long:
+    > Design response: Implement scheduled check ins or surveys with the user to see how they feel about the content, and adjust content accordingly.
 
 
 **3. Pervasiveness** 
 
-- Widespread use:
+- Widespread use: As the app grows, more users will be able to curate their own feeds.
+    > Observation: The shareability and curatability of feed or algorithm could incentivise a new digital normalcy where people compare their feed to others. This can start a new social behaviour of negative comparison and negative selfworth.
+
+    > Design response: make discovery a private, non-shareable, and non-quantifiable experience.
 
 - Diverse geographies, multii-national, culture:
+    > Observation: More diversity in the platform means more diverse searches and exposures to people on a daily bases. This could actually stir up new problem. Problem could arise by informing people of something they didn't know about previously and naturally picking a side to support.
+
+    > Design response: A design choice could be during discovery mode, the polar content suggestor is turned off, so it doesn't allow for immediate comparisons and judgement to form.
 
 - Political realities:
+    > Observation: Naturally when delivering political content, it is good to expose people to a more nuanced and multiple sources of information. Given the inherent polarity in politics, the pairing and association between recommended feed and "polar" feed becomes extremely important as the order people take in information can change the storytelling drastically.
+
+    > Design response: Implement community reporting to flag misleading or inapproriate pairings of contradicting posts. Maybe also instead of focusing on delivering opposing content, which in by itself is hostile, milder forms of association and linking to different content could be better.
 
 
 **4. Value** 
 
-- Autonomy:
+- Autonomy vs Fairness:
+    > Observation: Providing full autonomy to users could mean some user groups and their ideologies inundate the rest of the community by sheer posting volume. This could lead to an imbalance in the representation of different viewpoints, potentially drowning out minority opinions or less popular perspectives.
 
-- Inclusion:
+    > Design response: 
+1. Implement a balanced content moderation system that ensures different perspectives can co-exist without overwhelming others. This could include:
+- Algorithmic balancing to ensure a diversity of viewpoints in users' feeds
+- Community-driven moderation to flag and review potentially problematic content
+- Limiting the frequency of posts from highly active users to prevent domination
 
-- Community:
-
-- Fairness:
-
+2. Introduce a "diversity score" for user feeds, encouraging users to engage with a range of perspectives.
 
 
 ## 5. Storyboarding and sketching
 
-**Flow 1: Looking for fresh content** 
-Step 1: User is bored and wants to see something new.
-Step 2: User activates the "Shuffle Modes" feature and selects "Surprise me" option.
-Step 3: App presents a diverse array of content from various categories.
-Step 4: User swipes through content cards, each representing a different topic or interest.
-Step 5: User taps on an intriguing card about urban gardening, expanding it to view more details.
-Step 6: Impressed by the new content, user saves the topic to their "My Moods" section for future exploration.
+**Flow 1: Polar Glimpses: Looking for opposite content** 
 
-**Flow 2: Looking for opposite content** 
-Step 1: User felt misinformed from the news and wants to see the opposite perspective.
-Step 2: User activates the "Polar Identities" feature to view content that contrasts with their usual preferences.
-Step 3: App displays articles, videos, and posts that present alternative viewpoints.
-Step 4: User browses through the contrasting content, using the "Suggestion Card" feature to navigate between different categories.
-Step 5: User finds an interesting counterargument and uses the "Region Hopping" feature to see how this topic is discussed in different parts of the world.
-Step 6: User shares a particularly insightful article to their personal feed, adding a note about the importance of diverse perspectives.
+User argues with friend due to opposite viewpoints. User wants to see beyond their echo chamber. Turns slider to make a bigger step out of echo chamber. Surprises user with different content.
+<img src="./storyboards/flow1.jpg" alt="Flow 1: Looking for opposite content" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-**Flow 3: Wondering what content my friends are looking at**
-Step 1: User is inspired by other people's content, curious to see their taste.
-Step 2: User navigates to the "Sharing Social Glimpses" feature and selects a friend's profile.
-Step 3: App displays a curated feed based on the friend's interests and liked content.
-Step 4: User scrolls through the friend's feed, discovering new topics and content creators.
-Step 5: User finds a recurring theme in the friend's feed and uses the "People-inspired Feeds" feature to explore more content related to this theme.
-Step 6: Excited by the discovery, user initiates a chat with the friend directly from the app to discuss their shared interests.
+**Flow 2: Social Glimpses: Wondering what content my friends are looking at** 
 
-**Flow 4: Starting a feed jam with friends**
-Step 1: User wants to explore content together with friends, working on a collaborative feed.
-Step 2: User initiates a "Browse Jam" session and invites friends to join.
-Step 3: Friends join the session, and the app combines their interests using "Algorithm Mixing" to create a unique, shared feed.
-Step 4: The group scrolls through the feed together, with each member's cursor visible to others in real-time.
-Step 5: When someone finds interesting content, they can highlight it, triggering a group discussion feature.
-Step 6: The group uses the "Time-of-day" feature to schedule future jam sessions, ensuring they can regularly explore content together at convenient times.
+User sees friend picking up a new hobby. User wonders what other content friends are looking at. Searches friend's profile as a filter for feed.
+<img src="./storyboards/flow2.jpg" alt="Flow 1: Looking for opposite content" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
+**Flow 3: Feed jamming with friends** 
 
+User and friends want to try out new content discovery spaces. The start a live feed jam session. They can see what each other is looking at and call each other with a "check this out" button.
+<img src="./storyboards/flow3.jpg" alt="Flow 1: Looking for opposite content" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
