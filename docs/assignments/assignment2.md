@@ -20,31 +20,31 @@ layout: doc
 ## 2. Comparables
 
 
-<img src="./a2_scrapbook/feedly1.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/feedly1.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/feedly2.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/feedly2.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/flipboard1.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/flipboard1.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/flipboard2.gif" alt="My Image" width="400" style="display: block; margin-bottom: 20px;"/>
+<img src="./a2/a2_scrapbook/flipboard2.gif" alt="My Image" width="400" style="display: block; margin-bottom: 20px;"/>
 
-<img src="./a2_scrapbook/spotify.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/spotify.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/spotify2.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/spotify2.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/netflix.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/netflix.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/medium.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/medium.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/youtube.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/youtube.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/reddit.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/reddit.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/verge.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/verge.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/red.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/red.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
-<img src="./a2_scrapbook/linkedin.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/a2_scrapbook/linkedin.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
 
 
@@ -196,14 +196,14 @@ layout: doc
 **Flow 1: Polar Glimpses: Looking for opposite content** 
 
 User argues with friend due to opposite viewpoints. User wants to see beyond their echo chamber. Turns slider to make a bigger step out of echo chamber. Surprises user with different content.
-<img src="./storyboards/flow1.jpg" alt="Flow 1: Looking for opposite content" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/storyboards/flow1.jpg" alt="Flow 1: Looking for opposite content" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
 **Flow 2: Social Glimpses: Wondering what content my friends are looking at** 
 
 User sees friend picking up a new hobby. User wonders what other content friends are looking at. Searches friend's profile as a filter for feed.
-<img src="./storyboards/flow2.jpg" alt="Flow 1: Looking for opposite content" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/storyboards/flow2.jpg" alt="Flow 1: Looking for opposite content" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
 **Flow 3: Feed jamming with friends** 
 
 User and friends want to try out new content discovery spaces. The start a live feed jam session. They can see what each other is looking at and call each other with a "check this out" button.
-<img src="./storyboards/flow3.jpg" alt="Flow 1: Looking for opposite content" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+<img src="./a2/storyboards/flow3.jpg" alt="Flow 1: Looking for opposite content" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
