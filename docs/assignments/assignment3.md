@@ -8,50 +8,113 @@ layout: doc
 
 
 ## 1.  Pitch. 
+### Wandr: Take a Step Beyond Echo Chambers
 
-<!-- Write a succinct (100 to 300 word) product pitch for your app, that gives it a name, describes its intended audience, the value that it brings, and some of its key functionality. Feel free to build on what you wrote in the previous assignment, and to draw on the insights you gleaned from your interviews and introspection. Describe the functionality in terms of the central concepts. We recommend drafting this pitch and then returning to adjust and revise it after you have completed your conceptual design. -->
-
-Wandr: A Journey Beyond Echo Chambers
-
-**Wandr** reimagines social media as a journey, where each user is an explorer navigating their consumption habits and discovering beyond their media echo chambers.
+Wandr reimagines social media as a journey, where each user is an explorer navigating their consumption habits and discovering beyond their media echo chambers.
 
 Upon signup, users can follow other "Wandrrs" and share a variety of media, including text, photos, short videos, and audio clips, as well as comment on posts.
 
-In the main feed, each post can be *flipped* to reveal alternative viewpoints, encouraging users to broaden their understanding and access new content easily.
+In the main feed, each post can be *flipped* to reveal alternative viewpoints, encouraging users to broaden their understanding and easily access new content.
 
-Users can customize the "flipped" content behind each *flip* by using the Compass, a tool that allows for personalized exploration.
-
-With the *Compass*, users can adjust their *Step*, determining how far each flip will take them—whether opting for small, thoughtful steps in a similar direction or bold leaps into new, potentially contrasting territories. The *Compass* also features a direction tool that helps users choose the thematic direction they wish to explore further, guiding their journey based on their interests and curiosity.
+Users can customize the "flipped" content behind each *flip* by adjust their *Step*, determining how far each flip will take them within broader content category — whether opting for small, thoughtful steps in a similar direction or bold leaps into new, potentially contrasting territories. 
 
 Additionally, a *summary* feature tracks users' content consumption, providing insights into their behaviors and helping them reflect on their media habits. This encourages mindful engagement and inspires users to seek out fresh ideas.
 
 
-
-
 ## 2. Functional design: Concepts
-<!-- Design a collection of concepts that will embody the functionality of your app; you’ll probably want 5-7 concepts for an app that is sufficiently rich to be interesting but not so complex that it can’t be implemented in the time you have (4 weeks). In some cases, a feature will correspond directly to a concept; in others, you may need to coalesce or split features. Concepts should be semantic, serve a distinct purpose, and be mutually independent. Each concept should be described with the standard parts: name, purpose, operational principle, state, and actions. You can write the principle informally, so long as it’s clear which actions are being referred to. The state should be defined using sets and relations. The actions can be written informally, or using the set/relation syntax illustrated in class. Define the app-level actions as synchronizations of concept actions, and instantiate generic concepts with appropriate types. Draw a dependency diagram showing the possible subsets. -->
 
-<!-- Remember that the goal of this personal project is not just to learn the basics of building a full-stack web app but also to practice innovative design. So your design should have some novel elements to it, such as new concepts (which are not familiar from existing apps), new enhancements of existing concepts (adding actions or state that makes the concept more powerful or flexible or perhaps easier to use), new uses of existing concepts, or new synchronizations between existing concepts. -->
+### Concept 1: User
 
-### Concept 1: Spotlite Selection
+**Purpose**: To give each individual an identity and profile, enabling them to participate in the platform and navigate the app.
 
-**Purpose**: The purpose is to ensure a diverse and dynamic content ecosystem by randomly selecting a set of users each week to be featured prominently, allowing them to share fresh and new content for the entire community to engage with.
-DW
-**Principle**: Every week, select a random set of users from the entire user base to be part of the 'Spotlite', granting them the ability to post content and engage with the community for the week.
+**Principle**: 
+- Users can create an account and log in/out of the platform. and enage with other users by following and unfollowing them.
+
+**State**:
+- User: Set of all users on the platform.
+- Profile: Users logged in or out of their account.
+
+**Actions**:
+- register
+- login
+- logout
+- follow
+- unfollow
+ 
+
+### Concept 2: Post
+
+**Purpose**: To allow users to share their media (text, photos, videos, or audio) with the community.
+
+**Principle**: 
+- Users share media (text, photos, videos, or audio) visible to the whole community.
+
+**State**:
+- Content feed: Set of all posts shared on the platform. Curated by the user's following and algorithm.
+- Profile page: A collection of posts by the user.
+
+**Actions**:
+- Create
+- Edit
+- Delete
+
+
+### Concept 3: Comment
+
+**Purpose**: To foster meaningful conversations and interactions on posts shared by other users.
+
+**Principle**: 
+Users provide thoughts, reaction, feedback, ask questions, or engage with posts and other comments in a threaded format by typing them in a comment box and submitting.
 
 **State**:
 
-- Spotliters: Set of users randomly selected for the weekly spotlight.
-- Content Pool: Set of users who have opted to participate in the pool from which 'Spotliters' are chosen.
+**Actions**:
+- Comment
+- Reply
+- Delete
+- Edit
+- No Comment
+
+### Concept 4: Flip
+
+**Purpose**: To reveal alternative viewpoints or contrasting perspectives on a post in the form of suggested posts, enriching the user’s journey through diverse content.
+
+**Principle**: 
+- Users can view suggested content that relateds to the theme of the original post but differes in focus, perspective, or medium.
+
+**State**:
+- 
 
 **Actions**:
-- Opt-in or Opt-out: Users can opt to participate in the pool from which 'Spotliters' are chosen or choose to be viewers.
-- Random Selection: Randomly select a subset of users from the 'Users' set to be featured as 'Spotliters' for the upcoming week.
+- Flip Post
+- Like Suggestion
+- Generate Another
+
+### Concept 5: Step
+
+**Purpose**: To let users control the extent of exploration and discovery in the content they interact with, personalizing the depth of their journey.
+
+**Principle**: Users adjust the level of dissimilarity they want to explore in relation to the original post.
+
+**State**:
 
 
 
+**Actions**:
+- Set step
+- Update step
 
+### Concept 6: Summary
 
+**Purpose**: To provide users with insights into their content consumption habits and behaviors, helping them reflect and be mindful of their media consumption.
+
+**Principle**: Tracks users' content consumption based on the types of media they consume and the frequency under each category  and provides representation of data.
+
+**State**:
+
+**Actions**:
+- Calculate Summary
+- Display Summary
 
 
 
