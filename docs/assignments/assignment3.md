@@ -31,15 +31,16 @@ Additionally, a *summary* feature tracks users' content consumption, providing i
 - Users can create an account and log in/out of the platform. and enage with other users by following and unfollowing them.
 
 **State**:
-- User: Set of all users on the platform.
-- Profile: Users logged in or out of their account.
+- User name
+- User password
+- User profile/bio
+- User following
+- User followers
 
 **Actions**:
 - register
-- login
-- logout
-- follow
-- unfollow
+- login/logout
+- follow/unfollow
  
 
 ### Concept 2: Post
@@ -50,8 +51,11 @@ Additionally, a *summary* feature tracks users' content consumption, providing i
 - Users share media (text, photos, videos, or audio) visible to the whole community.
 
 **State**:
-- Content feed: Set of all posts shared on the platform. Curated by the user's following and algorithm.
-- Profile page: A collection of posts by the user.
+- Post media
+- Post date
+- Post author
+- Post category
+- Post semantics
 
 **Actions**:
 - Create
@@ -67,6 +71,8 @@ Additionally, a *summary* feature tracks users' content consumption, providing i
 Users provide thoughts, reaction, feedback, ask questions, or engage with posts and other comments in a threaded format by typing them in a comment box and submitting.
 
 **State**:
+- Comment text
+- Replies
 
 **Actions**:
 - Comment
@@ -83,10 +89,11 @@ Users provide thoughts, reaction, feedback, ask questions, or engage with posts 
 - Users can view suggested content that relateds to the theme of the original post but differes in focus, perspective, or medium.
 
 **State**:
-- 
+- Flip target
+- Flip suggestion
 
 **Actions**:
-- Flip Post
+- Flip [Target]
 - Like Suggestion
 - Generate Another
 
@@ -97,7 +104,8 @@ Users provide thoughts, reaction, feedback, ask questions, or engage with posts 
 **Principle**: Users adjust the level of dissimilarity they want to explore in relation to the original post.
 
 **State**:
-
+- Step value
+- Step range
 
 
 **Actions**:
@@ -111,6 +119,11 @@ Users provide thoughts, reaction, feedback, ask questions, or engage with posts 
 **Principle**: Tracks users' content consumption based on the types of media they consume and the frequency under each category  and provides representation of data.
 
 **State**:
+- Total content consumed
+- Total time spent
+- content consumed per category
+- content consumed per perspective
+
 
 **Actions**:
 - Calculate Summary
