@@ -81,7 +81,7 @@ Users provide thoughts, reaction, feedback, ask questions, or engage with posts 
 - Edit
 - No Comment
 
-### Concept 4: Flip
+### Concept 4: Suggestion
 
 **Purpose**: To reveal alternative viewpoints or contrasting perspectives on a post in the form of suggested posts, enriching the user’s journey through diverse content.
 
@@ -89,11 +89,11 @@ Users provide thoughts, reaction, feedback, ask questions, or engage with posts 
 - Users can view suggested content that relateds to the theme of the original post but differes in focus, perspective, or medium.
 
 **State**:
-- Flip target
-- Flip suggestion
+- Suggestion target
+- Suggestion List
 
 **Actions**:
-- Flip [Target]
+- Suggest [Target]
 - Like Suggestion
 - Generate Another
 
@@ -112,7 +112,29 @@ Users provide thoughts, reaction, feedback, ask questions, or engage with posts 
 - Set step
 - Update step
 
-### Concept 6: Summary
+
+
+
+**Actions**:
+- Calculate Summary
+- Display Summary
+
+### Concept 6: Like/Dislike
+
+**Purpose**: To allow users to express their preferences and provide feedback on the content they consume.
+
+**Principle**: Users can like or dislike a target, providing feedback on if they like or dislike the target. **This doesn't necessary mean upvoting or downvoting, but to keep track of their viewing habits and acceptability.**
+
+**State**:
+- Like/dislike target
+- Like/dislike list
+
+**Actions**:
+- Like [Target]
+- Dislike [Target]
+
+
+### Concept 7: Summary
 
 **Purpose**: To provide users with insights into their content consumption habits and behaviors, helping them reflect and be mindful of their media consumption.
 
@@ -121,19 +143,17 @@ Users provide thoughts, reaction, feedback, ask questions, or engage with posts 
 **State**:
 - Total content consumed
 - Total time spent
+- New content liked
+- New content disliked
 - content consumed per category
 - content consumed per perspective
-
 
 **Actions**:
 - Calculate Summary
 - Display Summary
 
-
-
-
 ## 3. Dependency Diagram. 
-
+<img src="./a3/dependency.png" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
 
 ## 4. Wireframes. 
 <!-- Construct a set of wireframes that shows the user interface elements and their layout, and includes some of the main flows. You can omit error handling and completely standard interactions (such as user registration), but your wireframes should otherwise be enough to cover all your concepts. -->
