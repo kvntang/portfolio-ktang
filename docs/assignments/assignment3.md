@@ -157,22 +157,24 @@ Users provide thoughts, reaction, feedback, ask questions, or engage with posts 
 
 ## 4. Wireframes. 
 <!-- Construct a set of wireframes that shows the user interface elements and their layout, and includes some of the main flows. You can omit error handling and completely standard interactions (such as user registration), but your wireframes should otherwise be enough to cover all your concepts. -->
+<img src="./a3/wireframe.jpg" alt="My Image" style="display: block; width: 100%; max-width: 800px; margin: 0 auto 20px;"/>
+
 
 ## 5. Design tradeoffs. 
 <!-- Using the notes that you took during your design, pick at least 3 design decisions that you made in which you had to choose between multiple options. For each one, provide (a) a pithy title naming the issue; (b) an outline of what the various options were; (c) a rationale for why you chose one option over the others. Try to keep your analysis below 300 words in total (for all the tradeoffs). -->
 
-### Tradeoff 1: 
-- **Options**:
+### Tradeoff 1 
+- **Options**: Permanent vs hidden Step adjustment bar
 
-- **Rationale**:    
+- **Rationale**: Since it is not a feature that is used frequently, it is better to hide it so that the user interface is not cluttered for a more focused user experience.  
 
-### Tradeoff 2: 
-- **Options**:
+### Tradeoff 2 
+- **Options**: Horizontal scrolling for Suggestion List with Progress Bar
 
-- **Rationale**:
+- **Rationale**:The progress bar is a good way to keep track of how deep the user has gone in terms of the suggestion rabbit hole. This new feature was actually discovered in the process of making the wireframe that a horizontal scrollbar with a progress bar can also be implemented to show how deep the user has gone in terms of the suggestion rabbit hole. This is a more efficient use of space and is more visually appealing. 
 
-### Tradeoff 3: 
-- **Options**:
+### Tradeoff 3
+- **Options**: Summary as a Card or plain text in background
 
-- **Rationale**:    
+- **Rationale**: Having the summary show up as a card could distract the user as it would have a similar design language as a post. Placing it behind the original post is a good compromise as it is still visually distinct yet less obtrusive.   
 
