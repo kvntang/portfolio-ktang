@@ -14,4 +14,4 @@ layout: doc
 [Github Repo](https://github.com/kvntang/wandr_backend).
 
 ## 3.  Deployed Vercel Site 
-[Vercel Site](https://wandr-980qy5hn9-kvntangs-projects.vercel.app/).
+[wandr-pi.vercel.app/](https://wandr-pi.vercel.app/).
