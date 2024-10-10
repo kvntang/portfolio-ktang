@@ -27,7 +27,7 @@ To address these challenges, I incorporated two models from the Hugging Face API
 
 Second, I used a *sentence similarity* model, which compares the auto-caption of a target post to the captions of other posts, returning similarity scores. This allowed me to rank posts by similarity and, combined with the step size concept, gave users control over how similar or diverse the suggested content would be.
 
-One of the significant challenges I faced was integrating the Hugging Face models into a scalable backend architecture, especially into the concepts. Since the concepts handle functions that modify MongoDB, I wasn’t sure where to place the external API calls, as they felt foreign to the typical database interaction logic.
+One of the significant challenges I faced was integrating the Hugging Face models into a scalable backend architecture, especially into the concepts. Since the concepts handle functions that modify MongoDB, I wasn’t sure where to place the external API calls, as they felt foreign to the typical database interaction logic. Additionally since the suggestion concept doesn't store anything to MongoDB, I was unsure what to put in the concpet file and ended up implementing everything within routes.ts.
 
 The suggestion algorithm works well for its intended purpose, but there is room for optimization. Future improvements could include refining the model selection, adding contextual data, and allowing users to give feedback on suggestions to improve relevance.
 
