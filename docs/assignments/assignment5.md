@@ -51,6 +51,6 @@ Can the logo be step setting?
 [Github Repo](https://github.com/kvntang/wandr_fullstack).
 
 ## 4.  Deployed Vercel Site 
-[wandr-pi.vercel.app/](https://wandr-fullstack.vercel.app/).
+[wandr-fullstack.vercel.app/](https://wandr-fullstack.vercel.app/).
 
 
