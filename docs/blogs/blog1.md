@@ -1,5 +1,5 @@
 ---
-title: Blog 1
+title: Blog 1- Notification or Clutter
 layout: doc
 ---
 
